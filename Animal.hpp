@@ -1,5 +1,5 @@
-#ifndef ANIMAL_H
-#define ANIMAL_H
+#ifndef D2A02C69_8937_4D91_98D9_CE86AD6AFF8E
+#define D2A02C69_8937_4D91_98D9_CE86AD6AFF8E
 
 #include <string>
 
@@ -10,11 +10,11 @@ public:
     double breath;
     double heart;
 
-    virtual bool check_health() = 0;
+    virtual bool check_health() const = 0;
 
     virtual ~Animal() = default;
 protected:
     Animal(std::string name, double temp, double breath, double heart);
 };
 
-#endif /* ANIMAL_H */
+#endif /* D2A02C69_8937_4D91_98D9_CE86AD6AFF8E */

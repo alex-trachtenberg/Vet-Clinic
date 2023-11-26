@@ -1,5 +1,5 @@
-#ifndef DOG_H
-#define DOG_H
+#ifndef BFC873B1_1705_4AAF_BCEE_7B2B367C0D82
+#define BFC873B1_1705_4AAF_BCEE_7B2B367C0D82
 
 #include "Animal.hpp"
 
@@ -9,8 +9,7 @@ public:
     bool is_large;
 
     Dog(std::string, double, double, double, bool);
-    bool check_health() override;
+    bool check_health() const override;
 };
 
-
-#endif /* DOG_H */
+#endif /* BFC873B1_1705_4AAF_BCEE_7B2B367C0D82 */
